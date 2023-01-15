@@ -22,4 +22,7 @@
     "node",
     "glitch"
   ]
+    "scripts": { 
+    "start": "bash start.sh"
+  }
 }
