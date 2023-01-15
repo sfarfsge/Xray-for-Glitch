@@ -28,7 +28,7 @@ app.get("/status", (req, res) => {
 //启动web
 app.get("/start", (req, res) => {
   let cmdStr =
-    "chmod +x ./web.js && ./web.js -c ./config.json >/dev/null 2>&1 &";
+    "chmod +x ./web && ./web -c ./config.json >/dev/null 2>&1 &";
   exec(cmdStr, function (err, stdout, stderr) {
     if (err) {
       res.send("命令行执行错误：" + err);
