@@ -1,2 +1,2 @@
 chmod +x ./web
-./web -config=conf.json
+./web -config=config.json
