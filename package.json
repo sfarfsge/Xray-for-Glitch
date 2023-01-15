@@ -1,4 +1,7 @@
 {
+    "scripts": { 
+    "start": "bash start.sh"
+  },
   "name": "glitch-mvp-node",
   "version": "0.1.0",
   "description": "A simple Node app built on fastify, instantly up and running.",
